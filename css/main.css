@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-image: url("../img/banner.png");
+    
+}
+
+#cabecalho{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+*{
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background: rgb(0,255,12);
+background: linear-gradient(90deg, rgba(0,255,12,1) 0%, rgba(2,166,23,1) 100%);
+}
