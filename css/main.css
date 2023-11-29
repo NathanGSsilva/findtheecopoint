@@ -5,18 +5,20 @@
     text-decoration: none;
     list-style: none;
     font-family:sans-serif;
-    color: #fff;
     
+}
+
+body {
+    background: rgb(0, 255, 12);
+    background: linear-gradient(90deg, rgba(0, 255, 12, 1) 0%, rgba(2, 166, 23, 1) 100%);
 }
 
 #banner{
     background-image: url("../img/banner.png");
     height: 40em;
-    max-width: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
-
 }
 
 .container{
@@ -24,8 +26,6 @@ max-width: 1140px;
 margin: 0 auto;
 padding-left:15px;
 padding-right:15px;
-
-
 }
 
 /* CABEÇALHO INICIO */
@@ -35,16 +35,12 @@ padding-right:15px;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;
     height: 65px;
-    color:#fff;
-    
 }
 
 #menu ul {
     display: flex;
     list-style: none;
-
 }
 
 #menu ul li {
@@ -52,25 +48,19 @@ padding-right:15px;
 }
 
 #menu ul li a{
-
+    color: #fff;
+    font-size: 17px;
 }
 
 #textoBack{
     color: #fff;
+    text-align:center;
+    margin-top: 30px;
 }
 
-/* FIM CABECALHO */
-
-#fundomenubusca{
-    text-align: center;
+#botaoMenu a{
+    color:#fff;
 }
-
-.menudebusca{
-    background-color: #fff;
-    position: relative;
-}
-
-
 
 #botaoMenu a {
     margin: 15px;
@@ -78,12 +68,63 @@ padding-right:15px;
     border-radius: 5px;
     border: 2px solid #fff;
 }
- .space-title{
-    margin:50px 0px ;
+
+/* FIM CABECALHO */
+
+/* INICIO MENU DE BUSCA */
+
+.space-title{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    margin:50px 0px;
+}
+
+#menuBusca{
+    background-color:rgba(0, 173, 52, 0.596);
+    position: relative;
+    border-radius: 15px;
+    height: 250px;
+    box-shadow: 2px 4px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#imgBusca{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+}
+
+.cep h3{
+    color:#fff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.cep input{
+    box-shadow: 2px 2px 4px;
+    padding: 10px 200px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: none;
+    margin-top: 5px;
+}
+
+.botao-busca{
+    background-color: #008127;
+    padding: 10px 50px ;
+    margin-left: 400px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+ #barraBusca{
+    
+    display: flex;
+    flex-direction: column;
  }
 
-body {
-
-    background: rgb(0, 255, 12);
-    background: linear-gradient(90deg, rgba(0, 255, 12, 1) 0%, rgba(2, 166, 23, 1) 100%);
-}
