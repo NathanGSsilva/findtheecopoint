@@ -14,146 +14,153 @@
 
 
 <body>
+    <header id="banner">
 
-    <header>
-        <div id="banner">
-            <div class="container">
-                <div id="cabecalho">
-                    <div class="logo-empresa">
-                        <img src="img/foto-logo.svg" alt="logo-empresa">
-                    </div>
 
-                    <nav id="menu">
-                        <ul>
-                            <li><a href="#">Educativo</a></li>
-                            <li><a href="#">Categorias</a></li>
-                            <li><a href="#">Contato</a></li>
-                        </ul>
-                    </nav>
-
-                    <div id="botaoMenu">
-                        <a href="#">Cadastro</a>
-                        <a href="#">Login</a>
-                    </div>
+        <div class="container">
+            <div id="cabecalho">
+                <img src="img/foto-logo.svg" alt="logo-empresa">
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Educativo</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+                <div id="botaoMenu">
+                    <a href="#">Cadastro</a>
+                    <a href="#">Login</a>
                 </div>
+            </div>
 
-                <div id="textoBack">
-                    <div id="texto1">
-                        <p>“DESCUBRA ONDE FICAM
-                            TODOS OS PONTOS DE
-                            DESCARTE PRÓXIMOS
-                            A VOCE!”</p>
-                    </div>
-                    <div id="texto2">
-                        <p>Aqui você encontra o lugar certo
-                            para reciclar seu lixo e
-                            colaborar com nosso mundo.</p>
-                    </div>
+
+            <div id="textoBack">
+                <div id="texto1">
+                    <p>“DESCUBRA ONDE FICAM
+                        TODOS OS PONTOS DE
+                        DESCARTE PRÓXIMOS
+                        A VOCE!”</p>
+                </div>
+                <div id="texto2">
+                    <p>Aqui você encontra o lugar certo
+                        para reciclar seu lixo e
+                        colaborar com nosso mundo.</p>
                 </div>
             </div>
         </div>
+
     </header>
 
     <main>
         <section>
             <div class="container">
-                <h2 class="space-title">Descubra os pontos de descarte próximos a você!</h2>
-                <div id="menuBusca">
+                <div id="fundomenubusca">
+                    <h2 class="space-title">Descubra os pontos de descarte próximos a você!</h2>
+                    <div id="menuBusca">
 
-                    <form action="#" method="get" class="menubuscadireita">
-                        <div class="imgbusca">
-                            <img src="img/foto-logo.svg" alt="logo-empresa">
-                        </div>
-                        <div class="cep">
-                            <h3>O que você precisa descartar?</h3>
-                            <input type="text" placeholder="Digite um objeto...">
-                        </div>
-                        <div class="cep">
-                            <h3>Onde você quer descartar?</h3>
-                            <input type="text" placeholder="Digite seu cep...">
-                        </div>
-                        <button type="submit" name="botao-busca" class="botao-busca">buscar<i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
-                    </form>
+                        <form action="#" method="get" class="menudebusca">
+
+                            <div class="imgbusca">
+                                <img src="img/foto-logo.svg" alt="logo-empresa">
+                            </div>
+
+                            <div class="cep">
+                                <h3>O que você precisa descartar?</h3>
+                                <input type="text" placeholder="Digite um objeto...">
+                            </div>
+
+                            <div class="cep">
+                                <h3>Onde você quer descartar?</h3>
+                                <input type="text" placeholder="Digite seu cep...">
+                            </div>
+
+                            <button type="submit" name="botao-busca" class="botao-busca">buscar<i
+                                    class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="space-title">Pontos de descarte comuns da sua cidade!</h2>
+                <div id="mapa">
+                    <p>digite seu cep...</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236395.6761934356!2d-50.25167360546877!3d-22.2141715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd7309baef6d9%3A0x2d5ecbe8edc7dc7c!2sSenac%20Marilia!5e0!3m2!1spt-BR!2sbr!4v1701218961428!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
-
-
-            </div>
+                <nav id="legenda-mapa">
+                    <ul>
+                        <li>"icone" - empresas parceiras</li>
+                        <li>"icone" - empresas publicas</li>
+                        <li>"icone" - empresas particulares</li>
+                    </ul>
+                </nav>
             </div>
         </section>
 
         <section>
-            <h2 class="space-title">Pontos de descarte comuns da sua cidade!</h2>
-            <div id="mapa">
-                <p>digite seu cep...</p>
-                <iframe src=”https://maps.app.goo.gl/4XCAmST1QoFv8DmU8” width=”600” height=”450” frameborder=”0”
-                    style=”border:0;” allowfullscreen=”" aria-hidden="false" tabindex="0"></iframe>
-            </div>
+            <div class="container">
+                <h2 class="space-title">NOSSAS PARCERIAS</h2>
+                <div id="parceiros">
 
-            <nav id="legenda-mapa">
-                <ul>
-                    <li>"icone" - empresas parceiras</li>
-                    <li>"icone" - empresas publicas</li>
-                    <li>"icone" - empresas particulares</li>
-                </ul>
-            </nav>
+                    <img src="img/parceiros-logo/global-solucoes.png" alt="">
 
-        </section>
+                    <img src="img/parceiros-logo/mult-uvr.png" alt="">
 
-        <section>
-            <h2 class="space-title">NOSSAS PARCERIAS</h2>
-            <div id="parceiros">
+                    <img src="img/parceiros-logo/nature-residuos.png" alt="">
 
-                <img src="img/parceiros-logo/global-solucoes.png" alt="">
+                    <img src="img/parceiros-logo/trata-entulho.png" alt="">
 
-                <img src="img/parceiros-logo/mult-uvr.png" alt="">
+                    <img src="img/parceiros-logo/vm-coleta.png" alt="">
 
-                <img src="img/parceiros-logo/nature-residuos.png" alt="">
-
-                <img src="img/parceiros-logo/trata-entulho.png" alt="">
-
-                <img src="img/parceiros-logo/vm-coleta.png" alt="">
-
+                </div>
             </div>
         </section>
 
     </main>
     <footer>
+        <div class="container">
 
 
 
-        <div>
-            <h3>FIND THE ECOPOINT</h3>
-            <nav>
-                <ul>
-                    <li>Sobre</li>
-                    <li>Políticas</li>
-                    <li>Seja um parceiro</li>
-                    <li>Termos de Uso</li>
-                </ul>
-            </nav>
-        </div>
-
-        <div>
-            <h3>CONTATO</h3>
-            <p>
-            <nav>
-                <ul>
-                    <li>findtheecopont@gmail.com</li>
-                    <li>(14)99999-9999</li>
-                    <li>Av. Santo Antonio, 459</li>
-                </ul>
-            </nav>
-        </div>
-
-        <div>
-            <h3>REDES SOCIAIS</h3>
             <div>
-                <a href="#">youtube icone</a>
-                <a href="#">facebook icone</a>
-                <a href="#">whatsapp icone</a>
+                <h3>FIND THE ECOPOINT</h3>
+                <nav>
+                    <ul>
+                        <li>Sobre</li>
+                        <li>Políticas</li>
+                        <li>Seja um parceiro</li>
+                        <li>Termos de Uso</li>
+                    </ul>
+                </nav>
             </div>
-            <img src="img/foto-logo.svg" alt="">
+
+            <div>
+                <h3>CONTATO</h3>
+                <p>
+                <nav>
+                    <ul>
+                        <li>findtheecopont@gmail.com</li>
+                        <li>(14)99999-9999</li>
+                        <li>Av. Santo Antonio, 459</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <h3>REDES SOCIAIS</h3>
+                <div>
+                    <a href="#">youtube icone</a>
+                    <a href="#">facebook icone</a>
+                    <a href="#">whatsapp icone</a>
+                </div>
+                <img src="img/foto-logo.svg" alt="">
+            </div>
         </div>
     </footer>
 
