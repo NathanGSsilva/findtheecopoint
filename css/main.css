@@ -128,3 +128,24 @@ padding-right:15px;
     flex-direction: column;
  }
 
+ #rodape {
+    background-color: #fff;
+    border-top: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+   
+
+}
+
+#linhaRodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rodape1 ul li{
+    padding: 5px;
+    display: flex;
+    
+
+}
