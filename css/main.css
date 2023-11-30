@@ -21,6 +21,7 @@ body {
     background-position: center;
 }
 
+
 .container{
 max-width: 1140px;
 margin: 0 auto;
@@ -153,6 +154,29 @@ padding-right:15px;
     display: flex;
     flex-direction: column;
  }
+
+
+ #rodape {
+    background-color: #fff;
+    border-top: 2px solid black;
+    margin-top: 50px;
+    padding-top: 30px;
+   
+
+}
+
+#linhaRodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rodape1 ul li{
+    padding: 5px;
+    display: flex;
+    
+
+}
 
  /* FIM DO MENU DE BUSCA */
 
