@@ -9,8 +9,7 @@
 }
 
 body {
-    background: rgb(0, 255, 12);
-    background: linear-gradient(90deg, rgba(0, 255, 12, 1) 0%, rgba(2, 166, 23, 1) 100%);
+    background: linear-gradient(90deg, rgb(37, 208, 34) 0%, rgb(0, 207, 21) 100%);
 }
 
 #banner{
@@ -19,6 +18,7 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .container{
@@ -69,6 +69,25 @@ padding-right:15px;
     border: 2px solid #fff;
 }
 
+#textoBack{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto1{
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: left;
+    color: #fff;
+}
+
+.texto2{
+    margin-top: 250px;
+    text-align: right;
+    color: #ffffffb0;
+    font-weight: bold;
+}
+
 /* FIM CABECALHO */
 
 /* INICIO MENU DE BUSCA */
@@ -78,6 +97,8 @@ padding-right:15px;
     color: #fff;
     font-size: 2em;
     margin:50px 0px;
+    padding-top: 120px;
+    text-shadow: 5px 3px 15px black;
 }
 
 #menuBusca{
@@ -85,7 +106,7 @@ padding-right:15px;
     position: relative;
     border-radius: 15px;
     height: 250px;
-    box-shadow: 2px 4px 10px;
+    box-shadow: 8px 10px 40px;
     display: flex;
     justify-content: center;
 }
@@ -105,20 +126,25 @@ padding-right:15px;
 
 .cep input{
     box-shadow: 2px 2px 4px;
-    padding: 10px 200px;
+    padding: 10px;
+    width: 600px;
     background-color: #fff;
     border-radius: 7px;
     border: none;
     margin-top: 5px;
+    
 }
 
 .botao-busca{
     background-color: #008127;
     padding: 10px 50px ;
-    margin-left: 400px;
+    margin-left: 380px;
     border-radius: 10px;
     border: none;
-
+    margin-top: 13px;
+    color: #fff;
+    box-shadow: 1px 1px 5px #000;
+    font-size: 18px;
 
 }
 
@@ -128,3 +154,72 @@ padding-right:15px;
     flex-direction: column;
  }
 
+ /* FIM DO MENU DE BUSCA */
+
+ /* COMEÇO DO MAPA */
+
+ #cepMapa input{
+    border: 2px ;
+    border-radius: 10px;
+    background-color: #008127;
+    color: #000;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    
+ }
+
+ #cepMapa input::placeholder {
+    color: #fff;
+ }
+ 
+ .cep input::placeholder {
+    
+    color: #000;
+ }
+
+ #mapa iframe{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 4px 6px 18px;
+ }
+
+ #legenda-mapa ul{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ #legenda-mapa ul li{
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0px 3px 20px black;
+ }
+
+ /* #legenda-mapa i{
+    color: red; 
+}*/
+
+#legenda-mapa pin1{
+    color: #000;
+}
+
+/* FIM DO MAPA */
+
+
+/* INICIO DOS PARCEIROS */
+
+#parceiros{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#parceiros img{
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+}
+
+/* FIM DOS PARCEIROS */
