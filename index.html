@@ -80,7 +80,7 @@
                             <input type="text" placeholder="Digite seu cep...">
                         </div>
 
-                        <button type="submit" name="botao-busca" class="botao-busca">buscar     <i
+                        <button type="submit" name="botao-busca" class="botao-busca">buscar <i
                                 class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
                     </form>
                 </div>
@@ -91,7 +91,7 @@
             <div class="container">
                 <h2 class="space-title">Pontos de descarte comuns da sua cidade!</h2>
                 <div id="mapa">
-                    
+
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236395.6761934356!2d-50.25167360546877!3d-22.2141715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd7309baef6d9%3A0x2d5ecbe8edc7dc7c!2sSenac%20Marilia!5e0!3m2!1spt-BR!2sbr!4v1701218961428!5m2!1spt-BR!2sbr"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -100,9 +100,15 @@
 
                 <nav id="legenda-mapa">
                     <ul>
-                        <li><i class="fa-solid fa-map-pin"></i> - empresas parceiras</li>
-                        <li><i class="fa-solid fa-map-pin"></i> - empresas publicas</li>
-                        <li><i class="fa-solid fa-map-pin"></i> - empresas particulares</li>
+                        <li>
+                            <div class="red"><i class="fa-solid fa-map-pin"></i> - empresas parceiras</div>
+                        </li>
+                        <li>
+                            <div class="blue"><i class="fa-solid fa-map-pin"></i> - empresas publicas</div>
+                        </li>
+                        <li>
+                            <div class="black"><i class="fa-solid fa-map-pin"></i> - empresas particulares</div>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -124,6 +130,11 @@
                     <img src="img/parceiros-logo/vm-coleta.png" alt="">
 
                 </div>
+                <div class="bolinha">
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                </div>
             </div>
         </section>
     </main>
@@ -131,51 +142,45 @@
     <footer id="rodape">
         <div class="container" id="linhaRodape">
 
-
-            <div class="coluna-rodape">
+            <div>
                 <h3>FIND THE ECOPOINT</h3>
                 <nav class="rodape1">
                     <ul>
-                        <li>Sobre</li>
-                        <li>Políticas</li>
-                        <li>Seja um parceiro</li>
-                        <li>Termos de Uso</li>
+                        <a href="#"><li>Sobre</li></a>
+                        <a href="#"><li>Políticas</li></a>
+                        <a href="#"><li>Seja um parceiro</li></a>
+                        <a href="#"><li>Termos de Uso</li></a>
                     </ul>
                 </nav>
             </div>
 
-            <div class="coluna-rodape">
+            <div>
                 <h3>CONTATO</h3>
-                <p>
-                <nav class="rodape1">
-                   
-                        <div>
-                            <ul>
+                <nav>
+                    <ul>
+                        <div class="contatoFlex">
                             <i class="fa-regular fa-envelope"></i>
-                            <li>findtheecopoi   nt@gmail.com</li>
-                        </ul>
+                            <a href="#"><li>findtheecopoint@gmail.com</li></a>
                         </div>
-                        <div>
-                            <ul>
+                        <div class="contatoFlex">
                             <i class="fa-solid fa-phone"></i>
-                            <li>(14)99999-9999</li>
-                        </ul>
+                            <a href="#"><li>(14)99999-9999</li></a>
                         </div>
-                        <div>
-                            
+                        <div class="contatoFlex">
                             <i class="fa-solid fa-location-dot"></i>
-                            <li>Av. Santo Antonio, 459</li>
-                        </ul>
+                            <a href="#"><li>Av. Santo Antonio, 459</li></a>
+
                         </div>
-                    
+                    </ul>
                 </nav>
             </div>
 
-            <div class="coluna-rodape">
+            <div>
                 <h3>REDES SOCIAIS</h3>
-                <div>
+                <div class="icones">
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
                 </div>
                 <img src="img/foto-logo.svg" alt="">
             </div>
@@ -185,4 +190,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</html> 
+</html>
