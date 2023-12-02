@@ -15,12 +15,14 @@ body {
 /* BANNER HOME */
 #banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/banner.png");
-    height: 40em;
+    height: 800px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+
 
 .container {
     max-width: 1140px;
@@ -31,20 +33,27 @@ body {
 
 /* CABEÇALHO INICIO */
 
+.imghome{
+    margin-top: 15px;
+}
+
 #cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 20px;
     height: 65px;
 }
 
+
 #menu ul {
     display: flex;
     list-style: none;
+
 }
 
 #menu ul li {
+    margin-top: 40px;
     padding: 30px;
 }
 
@@ -57,20 +66,6 @@ body {
     color: #fff;
     text-align: center;
     margin-top: 30px;
-}
-
-#botaoMenu a {
-    color: #fff;
-}
-
-#botaoMenu a {
-    margin: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 5px;
-    border: 2px solid #fff;
-}
-
-#textoBack {
     display: flex;
     flex-direction: column;
 }
@@ -90,19 +85,8 @@ body {
 }
 
 #menu a:hover{
-    border: solid 3px #fff;
-    padding: 5px 10px;
     font-weight:bold;
-    border-radius: 10px;
-    position: static;
-}
-
-#botaoMenu a:hover{
-    border: solid 3px #fff;
-    padding: 5px 10px;
-    font-weight:bold;
-    border-radius: 10px;
-    position: static;
+    text-shadow: 1px 1px 4px#fff; 
 }
 
 /* FIM CABECALHO */
@@ -115,7 +99,7 @@ body {
     font-size: 2em;
     margin: 50px 0px;
     padding-top: 120px;
-    text-shadow: 5px 3px 15px black;
+    text-shadow: 5px 3px 15px #5c5c5c;
 }
 
 #menuBusca {
@@ -123,7 +107,7 @@ body {
     position: relative;
     border-radius: 15px;
     height: 250px;
-    box-shadow: 8px 10px 40px;
+    box-shadow: 8px 10px 30px #454444;
     display: flex;
     justify-content: center;
 }
@@ -142,7 +126,7 @@ body {
 }
 
 .cep input {
-    box-shadow: 2px 2px 4px;
+    box-shadow: 2px 2px 4px #646464;
     padding: 10px;
     width: 600px;
     background-color: #fff;
@@ -179,28 +163,10 @@ body {
 
 /* COMEÇO DO MAPA */
 
-#cepMapa input {
-    border: 2px;
-    border-radius: 10px;
-    background-color: #008127;
-    color: #000;
-    padding-bottom: 20px;
-    margin-left: 20px;
-    font-size: 15px;
-}
-
-#cepMapa input::placeholder {
-    color: #fff;
-}
-
-.cep input::placeholder {
-    color: #000;
-}
-
 #mapa iframe {
     width: 100%;
     border-radius: 20px;
-    box-shadow: 4px 6px 18px;
+    box-shadow: 4px 6px 15px #686868;
 }
 
 #legenda-mapa ul {
@@ -212,7 +178,7 @@ body {
     padding: 20px;
     font-size: 18px;
     color: #fff;
-    text-shadow: 0px 3px 20px black;
+    text-shadow: 0px 3px 20px #8d8c8c;
 }
 
 .red i {
@@ -268,7 +234,7 @@ body {
 
 #rodape {
     background-color: #fff;
-    border-top: 2px solid #000000;
+    border-top: 3px solid #ccc;
     margin-top: 50px;
     padding-top: 30px;
 }
@@ -314,3 +280,199 @@ footer h3{
     padding-top: 5px;
 }
 /* FIM RODAPE */
+
+/* INICIO SOBRE NOS */
+
+/* cabeçalho inicio */
+#banner2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/Reciclagem.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#cabesobre{
+    background-color: #fff;
+    padding-bottom: 73px;
+}
+
+#menu1 ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#menu1 ul li {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+#menu1 ul li a {
+    color: #000;
+    font-size: 17px;
+}
+
+#menu1 a:hover{
+    font-weight:bold;
+    
+}
+
+/* cabeçalho fim */
+
+#sobreNos{
+    display: flex;
+    margin-top: 90px;
+    
+}
+
+#textoSobre{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#textoSobre p{
+    font-size: 25px;
+    color: #333232;
+    margin-bottom: 5px;
+}
+
+#sobre1{
+    font-size: 50px;  
+}
+
+#sobre2{
+    font-size: 28px;
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #8d8c8c;    
+}
+
+.sobre3{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 10px #8d8c8c;
+    
+}
+
+.sobre4{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-shadow: 1px 1px 4px #bdbdbd;
+    color: #fff;
+}
+
+#borderSobre{
+    border: 2px solid #fff;
+    margin-top: 50px;
+}
+#imgSobrenos img{
+    /* background-image: url("../img/junto-contralixo.png"); */
+   background-repeat: no-repeat;
+  
+}
+
+#arrumar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* FIM DO SOBRE NOS */
+
+/* INICIO PARCEIROS */
+
+#branco{
+    background-color: #fff;
+}
+
+.space-title2 {
+    text-align: center;
+    color: #464646;
+    font-size: 28px;
+    margin: 30px 0px;
+}
+
+#banner3{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/reciclagem-grande.png");
+        height: 600px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+}
+
+#parceiro1{
+    font-size: 50px;  
+}
+
+#textoParceiro p{
+    font-size: 25px;
+    color: #201f1f;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#menuBusca1 {
+    background-color: rgb(2, 204, 63);
+    position: relative;
+    border-radius: 15px;
+    height: auto;
+    box-shadow: 8px 10px 30px #454444;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#imgBusca1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+}
+
+.cep1 h3 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.cep1 input {
+    box-shadow: 2px 2px 4px #646464;
+    padding: 10px;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: none;
+    margin-top: 5px;
+}
+
+.botao-busca1 {
+    background-color: #008127;
+    padding: 10px 50px;
+    margin-left: 380px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 13px;
+    color: #fff;
+    box-shadow: 1px 1px 5px #000;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#menuBusca h3{
+    text-shadow: 5px 3px 15px black;
+}
