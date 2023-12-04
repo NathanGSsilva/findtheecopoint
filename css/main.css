@@ -33,7 +33,7 @@ body {
 
 /* CABEÇALHO INICIO */
 
-.imghome{
+.imghome {
     margin-top: 15px;
 }
 
@@ -84,9 +84,9 @@ body {
     font-weight: bold;
 }
 
-#menu a:hover{
-    font-weight:bold;
-    text-shadow: 1px 1px 4px#fff; 
+#menu a:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 4px#fff;
 }
 
 /* FIM CABECALHO */
@@ -154,7 +154,7 @@ body {
     flex-direction: column;
 }
 
-#menuBusca h3{
+#menuBusca h3 {
     text-shadow: 5px 3px 15px black;
 
 }
@@ -246,54 +246,55 @@ body {
     padding-bottom: 20px;
 }
 
-.icones a{
-    color:#000;
+.icones a {
+    color: #000;
     font-size: 40px;
     margin-left: 5px;
 }
 
-.contatoFlex{
+.contatoFlex {
     display: flex;
     font-size: 18px;
     padding: 5px;
 }
 
-.contatoFlex i{
+.contatoFlex i {
     padding-right: 5px;
 }
 
-footer a:hover{
+footer a:hover {
     color: #000;
     font-weight: bold;
 }
 
-footer a{
+footer a {
     color: #000;
 }
 
-footer h3{
+footer h3 {
     font-size: 25px;
-} 
+}
 
-.rodape1 li{
+.rodape1 li {
     font-size: 18px;
     padding-top: 5px;
 }
+
 /* FIM RODAPE */
 
 /* INICIO SOBRE NOS */
 
 /* cabeçalho inicio */
 #banner2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/Reciclagem.jpg");
-    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/bannersobrenos.svg");
+    height: 220px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
 }
 
-#cabesobre{
+#cabesobre {
     background-color: #fff;
     padding-bottom: 73px;
 }
@@ -314,56 +315,56 @@ footer h3{
     font-size: 17px;
 }
 
-#menu1 a:hover{
-    font-weight:bold;
-    
+#menu1 a:hover {
+    font-weight: bold;
+
 }
 
 /* cabeçalho fim */
 
-#sobreNos{
+#sobreNos {
     display: flex;
     margin-top: 90px;
-    
+
 }
 
-#textoSobre{
+#textoSobre {
     background-color: #fff;
     padding-top: 40px;
     padding-bottom: 50px;
 }
 
-#textoSobre p{
+#textoSobre p {
     font-size: 25px;
     color: #333232;
     margin-bottom: 5px;
 }
 
-#sobre1{
-    font-size: 50px;  
+#sobre1 {
+    font-size: 50px;
 }
 
-#sobre2{
+#sobre2 {
     font-size: 28px;
     color: #fff;
     padding-top: 90px;
     padding-bottom: 40px;
     text-align: center;
     font-weight: bold;
-    text-shadow: 1px 1px 5px #8d8c8c;    
+    text-shadow: 1px 1px 5px #8d8c8c;
 }
 
-.sobre3{
+.sobre3 {
     font-size: 25px;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 30px;
     text-shadow: 1px 1px 10px #8d8c8c;
-    
+
 }
 
-.sobre4{
+.sobre4 {
     font-size: 18px;
     margin-left: 15px;
     margin-bottom: 30px;
@@ -372,17 +373,18 @@ footer h3{
     color: #fff;
 }
 
-#borderSobre{
+#borderSobre {
     border: 2px solid #fff;
     margin-top: 50px;
 }
-#imgSobrenos img{
+
+#imgSobrenos img {
     /* background-image: url("../img/junto-contralixo.png"); */
-   background-repeat: no-repeat;
-  
+    background-repeat: no-repeat;
+
 }
 
-#arrumar{
+#arrumar {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -392,7 +394,7 @@ footer h3{
 
 /* INICIO PARCEIROS */
 
-#branco{
+#branco {
     background-color: #fff;
 }
 
@@ -403,20 +405,20 @@ footer h3{
     margin: 30px 0px;
 }
 
-#banner3{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/reciclagem-grande.png");
-        height: 600px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
+#banner3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../img/bannerparceiro.svg");
+    height: 220px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
-#parceiro1{
-    font-size: 50px;  
+#parceiro1 {
+    font-size: 50px;
 }
 
-#textoParceiro p{
+#textoParceiro p {
     font-size: 25px;
     color: #201f1f;
     margin-bottom: 5px;
@@ -473,6 +475,126 @@ footer h3{
     font-weight: bold;
 }
 
-#menuBusca h3{
+#menuBusca h3 {
     text-shadow: 5px 3px 15px black;
+}
+
+/* FIM */
+
+/* COMEÇO PAGINA EDUCATIVA */
+
+#banner4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.144)), url("../img/educativobanner.svg");
+    height: 220px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#educativo {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+#imgEducativo img {
+
+    border-radius: 30px 0px 30px 0px;
+    margin-right: 50px;
+
+}
+
+#educativo1 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+#educativo1 p {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #636262;
+}
+
+#educativo h3 {
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+
+#bordaEducativo {
+
+    margin-top: 70px;
+    padding-bottom: 70px;
+    border-top: 3px solid #05e949
+}
+
+.educativocentralizar {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#eduTxt1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #888888;
+}
+
+#eduBack {
+    background-color: #ffffff;
+    border-radius: 30px 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #636262;
+    display: flex;
+    justify-content: center;
+
+}
+
+#ajuda1 h4{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+#ajuda1 p{
+    margin-top: 3px;
+    margin-left: 15px;
+    padding-right: 60px;
+}
+
+.eduTxt3 {
+    font-size: 15px;
+    text-align: justify;
+}
+
+#ajuda1 {
+margin-top: 20px;
+margin-bottom: 20px;
+    width: 90%;
+}
+
+.flextio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ajuda2{
+    margin-top: 40px;
+}
+
+.flextio img{
+    margin-top: 55px;
+    margin-right: 5px;
+}
+
+#bordaEducativo2{
+    margin-top: 70px;
+    padding-bottom: 60px;
+    border-top: 3px dashed #000
 }
