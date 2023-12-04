@@ -81,7 +81,7 @@ body {
     text-align: right;
     color: #ffffffb0;
     font-weight: bold;
-    
+
 }
 
 #menu a:hover {
@@ -554,14 +554,14 @@ footer h3 {
 
 }
 
-#ajuda1 h4{
+#ajuda1 h4 {
     margin-left: 5px;
     font-size: 20px;
     margin-top: 20px;
 
 }
 
-#ajuda1 p{
+#ajuda1 p {
     margin-top: 3px;
     margin-left: 15px;
     padding-right: 60px;
@@ -573,26 +573,26 @@ footer h3 {
 }
 
 #ajuda1 {
-margin-top: 20px;
-margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 90%;
 }
 
-.flextio{
+.flextio {
     display: flex;
     justify-content: space-around;
 }
 
-.ajuda2{
+.ajuda2 {
     margin-top: 40px;
 }
 
-.flextio img{
+.flextio img {
     margin-top: 55px;
     margin-right: 5px;
 }
 
-#bordaEducativo2{
+#bordaEducativo2 {
     margin-top: 70px;
     padding-bottom: 60px;
     border-top: 3px dashed #000
@@ -611,76 +611,84 @@ margin-bottom: 20px;
     background-position: center;
 }
 
-.categoria1{
+.categoria1 {
     padding: 100px 0px;
     font-size: 35px;
 }
 
-.categoria2{
+.categoria2 {
     text-align: center;
     padding-bottom: 5px;
     font-size: 30px;
     color: #2e2e2e;
 }
 
-.categoria3{
+.categoria3 {
     padding: 0px 50px;
     font-size: 20px;
     margin-top: 5px;
     padding-bottom: 50px;
 }
 
-.fundoTxt{
+.fundoTxt {
     border-radius: 0px 20px 0px 20px;
     box-shadow: 1px 1px 10px #464646;
     background-color: #fff;
 }
 
-.categoriaTxt{
+.categoriaTxt {
     display: flex;
-    
+
 }
 
-.categoriaTxt img{
+.categoriaTxt img {
     width: 200px;
     margin-left: 50px;
 }
 
-#arrumatop{
-    margin-top:90px;
+#arrumatop {
+    margin-top: 90px;
 }
 
-.fundoTxt h4{
+.fundoTxt h4 {
     padding: 5px 35px;
     margin-top: 35px;
     font-size: 25px;
 }
 
-.fundoTxt p{
+.fundoTxt p {
     padding: 5px 35px;
     text-align: justify;
     font-size: 18px;
     padding-right: 22px;
 }
 
-#imgcategoria{
+#imgcategoria {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-#imgcategoria img{
+#imgcategoria img {
     border-radius: 8px;
     box-shadow: 1px 1px 4px #464646;
 }
 
-#paraArru{
+#paraArru {
     margin-bottom: 40px;
 }
 
-.texto4{
+.texto4 {
     background-color: #fff;
     margin-top: 50px;
     padding: 30px;
     border-radius: 20px;
+}
+
+.texto4 p {
+    margin-bottom: 20px;
+}
+
+.texto4 h2 {
+    margin-bottom: 20px;
 }
